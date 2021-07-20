@@ -2,7 +2,7 @@ using System;
 
 namespace products.Models
 {
-  public class Game
+  public class PlaystationGame
   {
     public int Id {get; set;}
     public string Name {get; set;}
@@ -10,5 +10,6 @@ namespace products.Models
     public string CreatorId {get;set;}
     public DateTime CreatedAt {get;set;}
     public DateTime UpdatedAt {get;set;}
+    public int ConsoleId {get; set;}
   }
 }
